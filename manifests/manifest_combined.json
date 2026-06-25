@@ -1,0 +1,167 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://TDUW.github.io/Course-Manifest-June-2026/manifests/manifest_combined.json",
+  "type" : "Manifest",
+  "rights" : "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "behavior" : [ "individuals" ],
+  "label" : {
+    "de" : [ "Geologische Karte der gefürsteten Grafschaft Tyrol nebst Vorarlberg und dem Souverainen Fürstenthum Liechtenstein" ],
+    "en" : [ "Geological map of the princely County of Tyrol together with Vorarlberg and the sovereign Principality of Liechtenstein" ]
+  },
+  "summary" : {
+    "de" : [ "Historische geologische Karte Tirols, Vorarlbergs und Liechtensteins aus dem Jahr 1849." ],
+    "en" : [ "Historical geological map of Tyrol, Vorarlberg, and Liechtenstein from the year 1849." ]
+  },
+  "requiredStatement" : {
+    "label" : {
+      "de" : [ "Wichtiger Hinweis" ],
+      "en" : [ "Important Note" ]
+    },
+    "value" : {
+      "de" : [ "Zur Verfügung gestellt von der Universitätsbibliothek Wien" ],
+      "en" : [ "Provided by the Vienna University Library" ]
+    }
+  },
+  "metadata" : [ {
+    "label" : {
+      "de" : [ "Titel" ],
+      "en" : [ "Title" ]
+    },
+    "value" : {
+      "de" : [ "Geologische Karte der gefürsteten Grafschaft Tyrol nebst Vorarlberg und dem Souverainen Fürstenthum Liechtenstein" ],
+      "en" : [ "Geological map of the princely County of Tyrol together with Vorarlberg and the sovereign Principality of Liechtenstein" ]
+    }
+  }, {
+    "label" : {
+      "de" : [ "Kartograph" ],
+      "en" : [ "Cartographer" ]
+    },
+    "value" : {
+      "de" : [ "Simony, Friedrich" ],
+      "en" : [ "Simony, Friedrich" ]
+    }
+  }, {
+    "label" : {
+      "de" : [ "Stecher" ],
+      "en" : [ "Engraver" ]
+    },
+    "value" : {
+      "de" : [ "Stein, Karl" ],
+      "en" : [ "Stein, Karl" ]
+    }
+  }, {
+    "label" : {
+      "de" : [ "Erstellungsdatum" ],
+      "en" : [ "Date of creation" ]
+    },
+    "value" : {
+      "de" : [ "1849" ],
+      "en" : [ "1849" ]
+    }
+  }, {
+    "label" : {
+      "de" : [ "Institution" ],
+      "en" : [ "Institution" ]
+    },
+    "value" : {
+      "de" : [ "Universitätsbibliothek Wien" ],
+      "en" : [ "Vienna University Library" ]
+    }
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/iiif/manifest/tyrol-geological-map-1849/canvas/1",
+    "type" : "Canvas",
+    "height" : 839,
+    "width" : 1023,
+    "label" : {
+      "de" : [ "Karte" ],
+      "en" : [ "Map" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/ac-13252934%2fAC13252934.jpg/full/512,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 420,
+      "width" : 512
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/iiif/manifest/tyrol-geological-map-1849/canvas/1/page/1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/iiif/manifest/tyrol-geological-map-1849/annotation/image",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/iiif/manifest/tyrol-geological-map-1849/canvas/1",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/ac-13252934%2fAC13252934.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 839,
+          "width" : 1023,
+          "service" : [ {
+            "@id" : "https://iiif.archive.org/image/iiif/2/ac-13252934%2fAC13252934.jpg",
+            "type" : "ImageService2",
+            "profile" : "level2"
+          } ]
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://example.org/iiif/manifest/tyrol-geological-map-1849/canvas/1/annotations/1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "f1619b71-de9e-4924-97ca-8d0f570ed51b",
+        "target" : {
+          "source" : "https://example.org/iiif/manifest/tyrol-geological-map-1849/canvas/1",
+          "type" : "SpecificResource",
+          "selector" : {
+            "type" : "FragmentSelector",
+            "conformsTo" : "http://www.w3.org/TR/media-frags/",
+            "value" : "xywh=pixel:573.1758992860641,186.7102334106383,22.40918025719543,8.166058593720294"
+          }
+        },
+        "@context" : "http://www.w3.org/ns/anno.jsonld",
+        "type" : "Annotation",
+        "body" : [ {
+          "id" : "be257d8d-aabe-40f3-b476-55cb2b744f33",
+          "type" : "TextualBody",
+          "purpose" : "commenting",
+          "value" : "Innsbruck",
+          "created" : "2026-06-25T11:47:18.188Z"
+        } ],
+        "created" : "2026-06-25T11:47:11.291Z",
+        "creator" : {
+          "isGuest" : true,
+          "id" : "ZHau0ETz8tf5mqOMRgD7"
+        },
+        "motivation" : "commenting"
+      }, {
+        "id" : "a4e9c76f-387a-4412-a161-cb544e447ae7",
+        "target" : {
+          "source" : "https://example.org/iiif/manifest/tyrol-geological-map-1849/canvas/1",
+          "type" : "SpecificResource",
+          "selector" : {
+            "type" : "FragmentSelector",
+            "conformsTo" : "http://www.w3.org/TR/media-frags/",
+            "value" : "xywh=pixel:461.9346760948521,676.764222039867,6.963306339174437,8.22935435372358"
+          }
+        },
+        "@context" : "http://www.w3.org/ns/anno.jsonld",
+        "type" : "Annotation",
+        "body" : [ {
+          "id" : "d2514083-1bf9-4211-9855-e9e718236811",
+          "type" : "TextualBody",
+          "purpose" : "commenting",
+          "value" : "Trient",
+          "created" : "2026-06-25T11:48:21.582Z"
+        } ],
+        "created" : "2026-06-25T11:48:16.468Z",
+        "creator" : {
+          "isGuest" : true,
+          "id" : "ZHau0ETz8tf5mqOMRgD7"
+        },
+        "motivation" : "commenting"
+      } ]
+    } ]
+  } ]
+}
