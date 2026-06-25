@@ -190,26 +190,17 @@
           "items": [
             {
               "id": "f1619b71-de9e-4924-97ca-8d0f570ed51b",
-              "type": "Annotation",
-              "motivation": "commenting",
               "target": {
+                "source": "https://example.org/iiif/manifest/tyrol-geological-map-1849/canvas/1",
                 "type": "SpecificResource",
-                "source": {
-                  "id": "https://example.org/iiif/manifest/tyrol-geological-map-1849/canvas/1",
-                  "type": "Canvas",
-                  "partOf": [
-                    {
-                      "id": "https://example.org/iiif/manifest/tyrol-geological-map-1849",
-                      "type": "Manifest"
-                    }
-                  ]
-                },
                 "selector": {
                   "type": "FragmentSelector",
                   "conformsTo": "http://www.w3.org/TR/media-frags/",
-                  "value": "xywh=573.1758992860641,186.7102334106383,22.40918025719543,8.166058593720294"
+                  "value": "xywh=pixel:573.1758992860641,186.7102334106383,22.40918025719543,8.166058593720294"
                 }
               },
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "type": "Annotation",
               "body": [
                 {
                   "id": "be257d8d-aabe-40f3-b476-55cb2b744f33",
@@ -223,30 +214,22 @@
               "creator": {
                 "isGuest": true,
                 "id": "ZHau0ETz8tf5mqOMRgD7"
-              }
+              },
+              "motivation": "commenting"
             },
             {
               "id": "a4e9c76f-387a-4412-a161-cb544e447ae7",
-              "type": "Annotation",
-              "motivation": "commenting",
               "target": {
+                "source": "https://example.org/iiif/manifest/tyrol-geological-map-1849/canvas/1",
                 "type": "SpecificResource",
-                "source": {
-                  "id": "https://example.org/iiif/manifest/tyrol-geological-map-1849/canvas/1",
-                  "type": "Canvas",
-                  "partOf": [
-                    {
-                      "id": "https://example.org/iiif/manifest/tyrol-geological-map-1849",
-                      "type": "Manifest"
-                    }
-                  ]
-                },
                 "selector": {
                   "type": "FragmentSelector",
                   "conformsTo": "http://www.w3.org/TR/media-frags/",
-                  "value": "xywh=461.9346760948521,676.764222039867,6.963306339174437,8.22935435372358"
+                  "value": "xywh=pixel:461.9346760948521,676.764222039867,6.963306339174437,8.22935435372358"
                 }
               },
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "type": "Annotation",
               "body": [
                 {
                   "id": "d2514083-1bf9-4211-9855-e9e718236811",
@@ -260,7 +243,8 @@
               "creator": {
                 "isGuest": true,
                 "id": "ZHau0ETz8tf5mqOMRgD7"
-              }
+              },
+              "motivation": "commenting"
             }
           ]
         }
