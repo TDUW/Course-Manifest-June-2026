@@ -12,5 +12,12 @@
       "en" : [ "Geological map of the princely County of Tyrol together with Vorarlberg and the sovereign Principality of Liechtenstein" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://TDUW.github.io/Course-Manifest-June-2026/manifests/manifest_combined.json",
+    "label" : {
+      "de" : [ "Geologische Karte der gefürsteten Grafschaft Tyrol nebst Vorarlberg und dem Souverainen Fürstenthum Liechtenstein" ],
+      "en" : [ "Geological map of the princely County of Tyrol together with Vorarlberg and the sovereign Principality of Liechtenstein" ]
+    },
+    "type" : "Manifest"
   } ]
 }
